@@ -11,5 +11,10 @@ public class MyService {
 	{
 		return "Hello";
 	}
-	
+
+	@RequestMapping("/Hello2")
+	public String hello()
+	{
+		return "Hello";
+	}
 }
